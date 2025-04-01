@@ -1,0 +1,5 @@
+# Created at 2025-04-01T20:42:02.068
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Workspace Java\Nelio\Expert\Desafio-JaCoCo\Desafio\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
