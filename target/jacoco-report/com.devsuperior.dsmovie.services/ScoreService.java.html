@@ -28,10 +28,10 @@ import com.devsuperior.dsmovie.services.exceptions.ResourceNotFoundException;
 	@Transactional
 	public MovieDTO saveScore(ScoreDTO dto) {
 		
-<span class="nc" id="L31">		UserEntity user = userService.authenticated();</span>
+<span class="fc" id="L31">		UserEntity user = userService.authenticated();</span>
 		
-<span class="nc" id="L33">		MovieEntity movie = movieRepository.findById(dto.getMovieId())</span>
-<span class="nc" id="L34">				.orElseThrow(() -&gt; new ResourceNotFoundException(&quot;Recurso não encontrado&quot;));		</span>
+<span class="pc" id="L33">		MovieEntity movie = movieRepository.findById(dto.getMovieId())</span>
+<span class="pc" id="L34">				.orElseThrow(() -&gt; new ResourceNotFoundException(&quot;Recurso não encontrado&quot;));		</span>
 		
 <span class="nc" id="L36">		ScoreEntity score = new ScoreEntity();</span>
 <span class="nc" id="L37">		score.setMovie(movie);</span>
